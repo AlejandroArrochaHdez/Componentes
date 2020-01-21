@@ -28,13 +28,13 @@
    </columnConstraints>
    <children>
       <Label id="month" fx:id="mesLabel" text="Mes" GridPane.columnSpan="7" />
-      <Label text="L" GridPane.rowIndex="1" />
-      <Label text="M" GridPane.columnIndex="1" GridPane.rowIndex="1" />
-      <Label text="X" GridPane.columnIndex="2" GridPane.rowIndex="1" />
-      <Label text="J" GridPane.columnIndex="3" GridPane.rowIndex="1" />
-      <Label text="V" GridPane.columnIndex="4" GridPane.rowIndex="1" />
-      <Label text="S" GridPane.columnIndex="5" GridPane.rowIndex="1" />
-      <Label text="D" GridPane.columnIndex="6" GridPane.rowIndex="1" />
+      <Label id="weekday" text="L" GridPane.rowIndex="1" />
+      <Label id="weekday" text="M" GridPane.columnIndex="1" GridPane.rowIndex="1" />
+      <Label id="weekday" text="X" GridPane.columnIndex="2" GridPane.rowIndex="1" />
+      <Label id="weekday" text="J" GridPane.columnIndex="3" GridPane.rowIndex="1" />
+      <Label id="weekday" text="V" GridPane.columnIndex="4" GridPane.rowIndex="1" />
+      <Label id="weekday" text="S" GridPane.columnIndex="5" GridPane.rowIndex="1" />
+      <Label id="weekday" text="D" GridPane.columnIndex="6" GridPane.rowIndex="1" />
       <Label text="X" GridPane.rowIndex="2" />
       <Label text="X" GridPane.columnIndex="1" GridPane.rowIndex="2" />
       <Label text="X" GridPane.columnIndex="2" GridPane.rowIndex="2" />
