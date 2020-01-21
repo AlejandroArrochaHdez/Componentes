@@ -27,7 +27,7 @@
       <ColumnConstraints halignment="CENTER" hgrow="ALWAYS" maxWidth="1.7976931348623157E308" minWidth="10.0" prefWidth="30.0" />
    </columnConstraints>
    <children>
-      <Label fx:id="mesLabel" text="Mes" GridPane.columnSpan="7" />
+      <Label id="month" fx:id="mesLabel" text="Mes" GridPane.columnSpan="7" />
       <Label text="L" GridPane.rowIndex="1" />
       <Label text="M" GridPane.columnIndex="1" GridPane.rowIndex="1" />
       <Label text="X" GridPane.columnIndex="2" GridPane.rowIndex="1" />
