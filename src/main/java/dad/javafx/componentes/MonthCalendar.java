@@ -16,7 +16,6 @@ import javafx.scene.layout.GridPane;
 
 public class MonthCalendar extends GridPane implements Initializable {
 	
-	
     @FXML
     private Label mesLabel;
     
@@ -43,8 +42,6 @@ public class MonthCalendar extends GridPane implements Initializable {
 	public void initialize(URL location, ResourceBundle resources) {
 		year.addListener((o, ov, nv ) -> onListener());
 		month.addListener((o, ov, nv ) -> onListener());
-		year.set(2050);
-		month.set(1);
 	}
 
 	private void onListener() {
@@ -138,6 +135,5 @@ public class MonthCalendar extends GridPane implements Initializable {
 	public final void setYear(final int year) {
 		this.yearProperty().set(year);
 	}
-	
 
 }
