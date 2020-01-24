@@ -2,6 +2,7 @@ package dad.javafx.componentes;
 
 import java.io.IOException;
 import java.net.URL;
+import java.time.LocalDate;
 import java.util.Calendar;
 import java.util.GregorianCalendar;
 import java.util.ResourceBundle;
@@ -60,6 +61,16 @@ public class MonthCalendar extends GridPane implements Initializable {
 			f = (Label) getChildren().get(dayStart);
 			dayStart++;
 			f.setText(i + "");
+		}
+		Label lb = new Label();
+		lb = (Label) getChildren().get(Calendar.getInstance().get(Calendar.DAY_OF_MONTH) + 9);
+		lb.getStyleClass().clear();
+		int actualMonth = LocalDate.now().getMonthValue();
+		if (LocalDate.now().getYear() == year.get() && actualMonth-1 == month.get()) {
+			lb = new Label();
+			lb = (Label) getChildren().get(Calendar.getInstance().get(Calendar.DAY_OF_MONTH) + 9);
+			lb.getStyleClass().clear();
+			lb.getStyleClass().add("today");
 		}
 	}
 	
